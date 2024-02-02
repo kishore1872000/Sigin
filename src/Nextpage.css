@@ -1,0 +1,17 @@
+.Nextpage {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background :linear-gradient(to right,rgba(0,168,356),#846464,#ff0000);
+    background-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+    0%{background-position: 0%,75%;}
+    50%{background-position: 100%,50%;}
+    100%{background-position: 0%,70%;}
+}
